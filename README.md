@@ -49,13 +49,14 @@ Nota: No te olvides que al llamar la imagen se hace con el mismo nombre de guard
 <p class="mb-2">
 
 # Seccion de informacion.
+
 Section INFO ONE.
 <!--INFO ONE-->
 Separar contendido: De derecha a izquierda creando filas y columnas. (2 columnas de 6 que conforman las 12 de bootstrap).
 Nota: Las filas solo funcionan dentro de una fila de bootstrap por ellos agregamos las columnas en mi div container. Para centrar la imagen en la seccion coloco un margen en el eje "y" columnas.
 <!--<div class="col-md-6 my-auto">-->
 
-Section INFO ONE.
+Section INFO TWO.
 <!--INFO TWO-->
 1. Visualizar la pagina de navegaciones en todas las secciones: Repetimos lo anterior pero notamos que al bajar la barra de navegación no se muestra más. Para hacer que siempre se vea necesitaremos agregar la clase de bootstrap un fixed-top.
 <!-- ejemplo:
