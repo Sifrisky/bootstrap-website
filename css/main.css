@@ -7,14 +7,13 @@ header {
 }
 
 .navbar-brand {
-    background: #f1eaf7;
     font-size: 20px;
     color: #000;
     font-weight: bold;
   }
   
 #testimonial {
-    background: #f1eaf7;
+    background: #f1f1f1;
     padding: 50px 0 30px 0;
     text-align:center;
     margin-top: 40px;
