@@ -4,6 +4,12 @@ Deployed: https://sifrisky.github.io/bootstrap-website/
 # Preview
 <!--![](docs/screenshot.png)-->
 
+# Code
+- src, is the source code of the website
+- docs, have images, and text about this website
+
+
+*********************************************************************
 <!--My fonts-->
 Fuentes utilizadas: 
 Documentación: https://fonts.google.com
