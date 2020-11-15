@@ -19,26 +19,36 @@ ejemplo:  <ul class="navbar-nav ml-auto">
 <!--HEADER-->
 Esto es para que el usuario navegue en distintas secciones.
 1. Agregamos un contenedor de bootstrap en 2 partes (dos columnas de bootstrap) para dividir el contenido a la mitad.
-2. La imagen debe tener el mismo nombre como la guardaste. Para que se vea completa le colocamos un style de 100% y una clase de margen top de el tamaño que prefieras. En mi ejemplo utilice un 
+2. Imagen debe tener el mismo nombre como la guardaste. Para que se vea completa le colocamos un style de 100% y una clase de margen top de el tamaño que prefieras. En mi ejemplo utilice un  div de clase container.
+
 <div class="container mt-5">
 
-3. El texto
-Dentro de las columnas coloque unos div de clase header para el contenido de la izquierda. colocamos nuestro titulo con <h1> y un parrafo <p> y un botton.
-<a hrf="# class="btn btn-outline-secundary btn-lg"> btong lg es para hacerlo mas largo. tambien podemos añadir un margin top.
-Para colocar el titulo cercano a la imagen le agregamos u <h1 class="display-4"
+3. El texto. Dentro de las columnas coloque unos div de clase header para el contenido de la izquierda. 
+
+4. Titulo (h1) y parrafo (p):
+ Titulo --> <h1> 
+ Parrafo --> <p>  
+ Botton --> <a hrf="# class="btn btn-outline-secundary btn-lg"> 
+ 
+btn-lg: Alarga los botones.
+margin top: 
+Acercar el titulo a la imagen: usamos la clase display-4.
+
+<h1 class="display-4"
 
 # Seccion de testimonios
 <!--TESTIMONIOS-->
-Le agregamos un usuario y un Id
- <p class="mb-2"> sigue viendose encima
-Lo estilizamos cambiando el tamaño del autor. con un <h3>
-y el parrafo <h2>
-Alteramos con el css para mejorarlo.
+1. Agregar un usuario y un iD.
+2. Estilizando el tamaño del autor con etiquetas h3 para el autor y h2 para el parrafo.
+3. Mejoramos con css.
+4. Para evitar que se vea encimado hacemos una clase "mb-2" 
+<p class="mb-2">
 
 # Seccion de informacion.
 <!--INFO ONE-->
 Separar contenido de derecha a izquierda creando filas y columnas. (2 columnas de 6 que conforman las 12 de bootstrap).
-Nota: Las filas solo funcionan dentro de una fila de bootstrap por ellos agregamos las columnas. Para centrar la imagen en la seccion coloco un margen en el eje "y" columnas. en mi div container agrego <div class="col-md-6 my-auto">
+Nota: Las filas solo funcionan dentro de una fila de bootstrap por ellos agregamos las columnas. Para centrar la imagen en la seccion coloco un margen en el eje "y" columnas. en mi div container. 
+<div class="col-md-6 my-auto">
 
 <!--INFO TWO-->
 Quiero bajar y que la barra de navegacion (navigation) siempre se vea. Para ello le agrego a la clase de bootstrap un fixed-top.
