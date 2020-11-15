@@ -12,7 +12,9 @@ Deployed: https://sifrisky.github.io/bootstrap-website/
 *********************************************************************
 <!--My fonts-->
 Fuentes utilizadas: 
-Documentación: https://fonts.google.com
+Documentación Fonts: https://fonts.google.com
+<!--Bootstrap-->
+Documentación Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#text
 
 # Escogiendo mi navegacion 
 <!--NAVIGATION-->
