@@ -7,8 +7,9 @@ header {
 }
 
 .navbar-brand {
+    background: #f1eaf7;
     font-size: 20px;
-    color:#f1eaf7;;
+    color: #000;
     font-weight: bold;
   }
   
