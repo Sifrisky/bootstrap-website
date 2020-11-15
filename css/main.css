@@ -19,6 +19,7 @@ header {
   }
 
   footer {
-    background: url(../images/imagen5.png) no-repeat;  
+    background: url(../images/imagen5.png) no-repeat;
+    text-align: right;  
   }
   
