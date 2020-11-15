@@ -2,7 +2,7 @@
 Deployed: https://sifrisky.github.io/bootstrap-website/
 
 # Preview
-<!--![](docs/screenshot.png)-->
+![](images/screenshot.jpeg)
 
 # Code
 - src, is the source code of the website
