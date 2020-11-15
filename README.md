@@ -36,14 +36,65 @@ y el parrafo <h2>
 Alteramos con el css para mejorarlo.
 
 # Seccion de informacion.
-<!--Info ONE-->
+<!--INFO ONE-->
 Separar contenido de derecha a izquierda creando filas y columnas. (2 columnas de 6 que conforman las 12 de bootstrap).
+Nota: Las filas solo funcionan dentro de una fila de bootstrap por ellos agregamos las columnas. Para centrar la imagen en la seccion coloco un margen en el eje "y" columnas. en mi div container agrego <div class="col-md-6 my-auto">
 
+<!--INFO TWO-->
+Quiero bajar y que la barra de navegacion (navigation) siempre se vea. Para ello le agrego a la clase de bootstrap un fixed-top.
+ejemplo:
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
+Asi mismo, el header que no se vea encimado. Para ello en nuestro archivo de css le cambiamos los px para el espaciado inclusive si usas medias querys podrias hacerle un mejor trabajo. ver archivo del sgte ejemplo: 
 
+header {
+      75 px
+}
 
+Agregando un color a nuestra sección:
+<section id="info-two" style="background: #f1f1f1;">
 
+<!--FOOTER-->
+Footer o seccion final. Linkear con la navegación.
+Hacemos solo una columna de 5 (para luego hacer un espaciado) y una tarjeta que es algo que bootstrap crea (un cuadrado blanco), este contenido sera un formulario, es la clase tarjeta.    
+<form class="card"> --> Aqui adentro tendra una trajeta body.
 
-Tenemos vocación de servicio, nos importan las personas, y nuestro 
-      servicio técnico trabaja con excelencia, somos expertos en Windows. 
-      Realizamos reparaciones en tiempo record, ofrecemos garantía y soporte en línea.
+<div class="card-body"> --> dentro del body estaaran los inputs tipo text.
+pare ello hago un input con placeholder de tipo texto con lo que debe cargarse adentro.
+ <div class="form-group">
+      <input type="text" class="form-control" placeholder="Name">
+</div>
+
+//Repetimos lo anterior para email
+
+Para la seccion de mensaje hacemos un <textarea> 
+
+para un boton del tamaño de mi cuadro le agrego el btn-block
+
+<button class="btn btn-outline-secondary btn-block">
+
+# Footer: 
+Añadimos un background en nuestro archivo css con la imagen que queremos mostrar.
+
+# Animaciones:
+Esta la realizamosd en la seccion de script. (tambien podrias hacerlo en un archivo de .js por separado).
+
+Adicionalmente el scroll lo guardamos en una variable de windows y lo realizamos para cada seccion que se desee animar: 
+
+window.sr = ScrollReveal(); 
+Esto es solo un metodo que luego vamos a configurarlo. Lo que hace el metodo es seleccionar un elemento y realizar una navegacion (ver seccion de <script>)
+
+veamos el sgte ejemplo con navbar:
+
+sr.reveal('.navbar', {
+  duration: 2000,
+  origin: 'bottom'
+});
+
+Por ultimo: Para no cambiar el contenido de forma brusca utilizaremos Scrolling-StackOverflow:
+Documentación: https://stackoverflow.com/questions/7
+
+Con esta Jquery observamos como se desliza entre distintas secciones.
+
+-Fin-
+
