@@ -1,6 +1,9 @@
 # bootstrap-website
 Deployed: https://sifrisky.github.io/bootstrap-website/
 
+# Preview
+<!--![](docs/screenshot.png)-->
+
 <!--My fonts-->
 Fuentes utilizadas: 
 Documentación: https://fonts.google.com
