@@ -1,5 +1,5 @@
 # bootstrap-website
-Deployed: https://sifrisky.github.io/bootstrap-website/
+Deployment: [bootstrap-website](https://sifrisky.github.io/bootstrap-website/)
 
 # Preview
 ![](docs/screenshot.png)
