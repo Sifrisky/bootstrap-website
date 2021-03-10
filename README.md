@@ -1,5 +1,7 @@
-# bootstrap-website
+# Bootstrap-Website
 Deployment: [bootstrap-website](https://sifrisky.github.io/bootstrap-website/)
+
+_Mi primera landing page_
 
 # Preview
 ![](docs/screenshot.png)
@@ -30,11 +32,13 @@ Documentación Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#t
 # Realizando una nueva navegación en la seccion HEADER.
 <!--HEADER-->
 Esto es para que el usuario navegue en distintas secciones.
-1. Dividir el contenido a la mitad: Agregamos un contenedor de bootstrap en 2 partes (dos columnas de bootstrap).
-2. Imagen: Para que se vea completa, colocamos un style de 100% y una clase de margen top de el tamaño que prefieras (en mi caso fue un mt-5). En mi ejemplo utilice un  div de clase container.  <!-- <div class="container mt-5"> -->
+* Dividir el contenido a la mitad: Agregamos un contenedor de bootstrap en 2 partes (dos columnas de bootstrap).
+* Imagen: Para que se vea completa, colocamos un style de 100% y una clase de margen top de el tamaño que prefieras (en mi caso fue un mt-5). En mi ejemplo utilice un  div de Clase container.  <!-- <div class="container mt-5"> -->
+* 
 Nota: No te olvides que al llamar la imagen se hace con el mismo nombre de guardado. 
-3. El texto. Dentro de las columnas coloque unos div de clase header para el contenido de la izquierda. 
-4. Titulo (h1) para acercar la imagen al titulo usamos la clase display-4, un parrafo (p) y button (btn-lg) para alargar los botones del tamaño del recuadro.
+
+* El texto. Dentro de las columnas coloque unos div de clase header para el contenido de la izquierda. 
+* Titulo (h1) para acercar la imagen al titulo usamos la clase display-4, un parrafo (p) y button (btn-lg) para alargar los botones del tamaño del recuadro.
 <!-- Titulo     <h1> -->  
 <!-- Acercar titulo a la img <h1 class="display-4"> -->
 <!--Parrafo     <p> -->
@@ -42,10 +46,10 @@ Nota: No te olvides que al llamar la imagen se hace con el mismo nombre de guard
 
 # Seccion de testimonios
 <!--TESTIMONIOS-->
-1. Agregar un usuario y un iD.
-2. Estilizando el tamaño del autor con etiquetas h3 para el autor y h2 para el parrafo.
-3. Mejoramos con css.
-4. Para evitar que se vea encimado usamos una clase "mb-2" 
+* Agregar un usuario y un iD.
+* Estilizando el tamaño del autor con etiquetas h3 para el autor y h2 para el parrafo.
+* Mejoramos con css.
+* Para evitar que se vea encimado usamos una clase "mb-2" 
 <p class="mb-2">
 
 # Seccion de informacion.
@@ -58,27 +62,27 @@ Nota: Las filas solo funcionan dentro de una fila de bootstrap por ellos agregam
 
 Section INFO TWO.
 <!--INFO TWO-->
-1. Visualizar la pagina de navegaciones en todas las secciones: Repetimos lo anterior pero notamos que al bajar la barra de navegación no se muestra más. Para hacer que siempre se vea necesitaremos agregar la clase de bootstrap un fixed-top.
+* Visualizar la pagina de navegaciones en todas las secciones: Repetimos lo anterior pero notamos que al bajar la barra de navegación no se muestra más. Para hacer que siempre se vea necesitaremos agregar la clase de bootstrap un fixed-top.
 <!-- ejemplo:
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> -->
-2. Mejoras en el Header: Para evitar que la navigation se vea encimado agregamos px en nuestro archivo de css. Le cambiamos los px para el espaciado inclusive si usas medias querys podrias hacerle un mejor trabajo. Veáse archivo.
+* Mejoras en el Header: Para evitar que la navigation se vea encimado agregamos px en nuestro archivo de css. Le cambiamos los px para el espaciado inclusive si usas medias querys podrias hacerle un mejor trabajo. Veáse archivo.
 <!-->
 header {
       75 px
 } 
 -->
-3. Agregando color a nuestra sección: Añadido directamente en la section un style background. 
+* Agregando color a nuestra sección: Añadido directamente en la section un style background. 
 <!-- <section id="info-two" style="background: #f1f1f1;"> -->
-4. Formulario: Es una tarjeta que aparece como un cuadro blanco que bootstrap crea. Hacemos una columna de 5 (para luego hacer un espaciado).  Esto realizamos para name and email.
+* Formulario: Es una tarjeta que aparece como un cuadro blanco que bootstrap crea. Hacemos una columna de 5 (para luego hacer un espaciado).  Esto realizamos para name and email.
 <!-- <form class="card">      Aqui adentro tendra una trajeta body.
 <div class="card-body">       Dentro del body estaaran los inputs tipo text.
 
-placeholder: para ello hago un input con placeholder de tipo texto con lo que debe cargarse adentro. 
+* placeholder: para ello hago un input con placeholder de tipo texto con lo que debe cargarse adentro. 
 
  <div class="form-group">
       <input type="text" class="form-control" placeholder="Name">
 </div> -->
-5. Textarea para la parte del mensaje y el boton cusamos btn-block , lo que hace este boton es colocarlo del tamaño de mi recuadro. 
+* Textarea para la parte del mensaje y el boton cusamos btn-block , lo que hace este boton es colocarlo del tamaño de mi recuadro. 
 <!-- <textarea> 
 <button class="btn btn-outline-secondary btn-block"> -->
 
@@ -107,3 +111,5 @@ Documentación: https://stackoverflow.com/questions/7
 Con esta Jquery observamos como se desliza entre distintas secciones.
 
 -Fin-
+
+Made with a lots of 💖 
